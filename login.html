@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<script>
+		let Login = prompt('WLogin', 'Enter your login');
+		let Password ='';
+		if( Login == 'Admin'){
+			Password = prompt('Password','Enter your password');
+			if(Password == 'TheMaster'){
+				alert('Welcome');
+			}
+			else if (Password == ''){
+				alert('Otmena, Galya!');
+			}
+			else { alert('Loh');}
+		}
+		else if(Login == ''){alert('Отменено');}	
+		else {alert('I don`t know you');}
+	</script>
+</html>
+	
