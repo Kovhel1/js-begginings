@@ -1,1 +1,1 @@
-# js-begginings
+# js-beginnings
